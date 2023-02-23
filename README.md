@@ -16,8 +16,6 @@ https://github.com/mindkomm/theme-lib-mix
     
     The mix() function is useful if you want to enable cache busting 
     for your theme asset files (CSS, JavaScript, images, icon sprites). 
-    Laravel Mix allows you to create a mix-manifest.json file,
-    which might look like this:
 
 
     
