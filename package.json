@@ -1,0 +1,60 @@
+{
+  "name": "ap-quick-assets",
+  "version": "1.0.0",
+  "description": "=== AP Quick Assets === Contributors: apsolut Donate link: https://aleksandarperisic.com/ Tags: comments, spam Requires at least: 3.0.1 Tested up to: 3.4 Stable tag: 4.3 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "author": "Aleksandar Perisic",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "homepage": "https://aleksandarperisic.com/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Apsolut-Public-Projects/quick-assets-with-laravelmix-tailwind-php.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Apsolut-Public-Projects/quick-assets-with-laravelmix-tailwind-php/issues"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^19.2.2",
+    "autoprefixer": "^10.4.5",
+    "browser-sync": "^2.27.11",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "dir-archiver": "^1.1.1",
+    "laravel-mix": "^6.0.49",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.21",
+    "resolve-url-loader": "^5.0.0",
+    "rtlcss": "^3.5.0",
+    "tailwindcss": "^3.2.7"
+  },
+  "rtlcssConfig": {
+    "options": {
+      "autoRename": false,
+      "autoRenameStrict": false,
+      "blacklist": {},
+      "clean": true,
+      "greedy": false,
+      "processUrls": false,
+      "stringMap": []
+    },
+    "plugins": [],
+    "map": false
+  },
+  "scripts": {
+    "development": "mix",
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production",
+    "prod": "npm run production",
+    "build": "npm run production"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "alpinejs": "^3.11.1",
+    "mix-tailwindcss": "^1.3.0"
+  }
+}
