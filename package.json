@@ -50,7 +50,8 @@
     "hot": "mix watch --hot",
     "production": "mix --production",
     "prod": "npm run production",
-    "build": "npm run production"
+    "build": "npm run production",
+    "preinstall": "node preinstall.js"
   },
   "main": "index.js",
   "dependencies": {

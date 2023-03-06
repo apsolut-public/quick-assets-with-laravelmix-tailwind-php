@@ -1,7 +1,6 @@
 const mix = require('laravel-mix');
 require('mix-tailwindcss');
 
-
 /*
 |
 | Laravel Mix documentation can be found at https://laravel-mix.com/.

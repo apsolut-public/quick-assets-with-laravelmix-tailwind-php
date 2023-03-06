@@ -2,7 +2,7 @@
 
 /**
  * Gets the path to a versioned Mix file in a theme.
- *
+ * @link https://github.com/mindkomm/theme-lib-mix
  * Use this function if you want to load theme dependencies. This function will cache the contents
  * of the manifest files for you.
  *
